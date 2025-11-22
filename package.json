@@ -1,14 +1,15 @@
 {
-  "name": "promo-backend-proxy",
+  "name": "promo-backend-light",
   "version": "1.0.0",
-  "description": "Proxy para scraping de productos promocionales",
+  "description": "Proxy ligero con Cheerio y Axios",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "puppeteer": "^21.3.8",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
     "cors": "^2.8.5"
   },
   "engines": {
