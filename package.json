@@ -1,7 +1,7 @@
 {
-  "name": "promo-backend-light",
+  "name": "promo-backend-v4",
   "version": "1.0.0",
-  "description": "Proxy ligero con Cheerio y Axios",
+  "description": "Backend V4 Deep Scrape",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
