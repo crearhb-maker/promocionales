@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 // Endpoint para búsqueda de productos (Google Images Site Search)
 app.get('/search', async (req, res) => {
   const { q, site } = req.query;
-  const targetSite = site || 'https://www.catalogospromocionales.com';
+  const targetSite = site || 'https://www.catalogospromocionales.com/';
   const query = q ? q.toLowerCase() : '';
   
   if (!q) return res.status(400).json({ error: 'Falta parámetro q' });
